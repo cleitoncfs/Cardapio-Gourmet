@@ -1,0 +1,31 @@
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.footerLink {
+    color: #0077cc;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+
+.linkIcon {
+    font-size: 0.8rem;
+}
+
+.copyright {
+    margin-bottom: 0.5rem;
+}
+
+.credits {
+    margin-top: 0;
+}

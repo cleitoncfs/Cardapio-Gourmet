@@ -1,0 +1,53 @@
+.secao_categorias {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.container_botoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.container_botoes button {
+    padding: 10px 16px;
+    flex: 1 1 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    color: #333;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container_botoes button:hover {
+    background-color: goldenrod;
+    color: white;
+    transform: scale(1.03);
+}
+
+.icone {
+    width: 20px;
+    height: auto;
+}
+
+.acenderBtn {
+    background-color: goldenrod;
+    color: white;
+}
+
+.apagarBtn {
+    background-color: #f3f3f3;
+    color: #333;
+}

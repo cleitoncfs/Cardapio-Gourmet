@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: border 0.3s ease;
+}
+
+.container:hover {
+    border: 2px solid goldenrod;
+}
+
+.icone {
+    width: 30px;
+    height: auto;
+}
+
+.container input {
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: goldenrod;
+    background-color: transparent;
+}
+
+.container input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ccc;
+}
